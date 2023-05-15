@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Nunito-Regular;
+    src: url(../Font/static/Nunito-Regular.ttf);
+  }
+  
+
+#avatar{
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding: 30px; 
+
+    margin-bottom: 20px;
+}
+
+
+.imgs1{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 80%;
+}
+
+.imgs1:hover{
+    opacity: 100%;
+}
+
+#t1{
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#container-ava{
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    width: 1311px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    justify-content: center;
+    border: none;
+    background-color: #FF9100;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    width: 200px;
+    color: white;
+    font-family: Nunito-Regular;
+    font-size: 20px;
+    cursor: pointer;
+}
+    @media (max-width:767px) {
+     body {
+        font-size: 20px;
+        margin: 0;
+         padding: 0;
+        font-size: 20px;
+          height: 100vh;
+        
+          }
+          header {
+            padding: 0px;
+            background-color: #A628D6;
+            width: 100%;
+        
+          }
+        
+  #avatar img {
+    width: 60px;
+    padding: 5px;
+  }
+
+  .imgs1{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 80%;
+}
+
+ #container-ava {
+    width: 300px;
+ }
+
+  #btnavatar {
+    height: 30%;
+  }
+}
+
+    @media (max-width:992px) AND (min-width:768px) {
+        body {
+            font-size: 20px;
+            margin: 0;
+             padding: 0;
+            font-size: 20px;
+              height: 100vh;
+            
+              }
+              header {
+                padding: 0px;
+                background-color: #A628D6;
+                width: 100%;
+            
+              }
+            
+      #avatar img {
+        width: 120px;
+        padding: 5px;
+      }
+    
+      .imgs1{
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        opacity: 80%;
+    }
+    
+     #container-ava {
+        width: 600px;
+     }
+    
+      #btnavatar {
+        height: 30%;
+      }
+}

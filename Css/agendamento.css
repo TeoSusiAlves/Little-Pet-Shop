@@ -1,0 +1,684 @@
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(../Font/static/Nunito-Regular.ttf);
+}
+
+body {
+  font-family: Nunito-Regular;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+header {
+  align-items: center;
+  padding: 0px;
+  background-color: #A628D6;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px 20px 30px;
+  margin: 0;
+}
+
+#logo {
+  height: 90px;
+  width: 300px;
+}
+
+#img-logo {
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+}
+
+#input {
+  width: 680px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+#barra-de-pesquisa {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 50px;
+  top: 400px;
+  height: 40px;
+}
+
+#nav1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  font-size: 16px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+
+#box-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#botão-cadastre-se {
+  margin-top: 15px;
+}
+
+#inCli,
+#inPet,
+#inData,
+#inTime {
+  margin-top: 25px;
+  border-radius: 50px;
+  top: 250px;
+  height: 40px;
+  width: 52%;
+  padding-left: 10px;
+}
+
+#tabela {
+  width: 500px;
+  margin: 0px auto;
+  align-items: center;
+  margin-top: 35px;
+  display: none;
+}
+
+#inputes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+th {
+  background-color: #A628D6;
+  color: white;
+}
+
+tr {
+  background-color: white;
+  color: black;
+}
+
+.linhas {
+  padding: 10px;
+}
+
+#caixa {
+  background-color: #A628D6;
+  background: linear-gradient(180deg, #A628D6 0%, #5002AF 100%);
+  width: 860px;
+  height: fit;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#input2 {
+  padding: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#nao {
+  color: white;
+}
+
+#cadastro {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.barranome {
+  margin-top: 25px;
+  border-radius: 50px;
+  top: 250px;
+  height: 40px;
+  width: 25%;
+  padding-left: 10px;
+}
+
+#mensagem-erro {
+  display: none;
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.barra {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+select {
+  border: #5002AF solid 2px;
+  height: 50px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background: rgb(166, 40, 214);
+  background: linear-gradient(180deg, rgb(166, 40, 214), rgba(31, 0, 58));
+  margin-top: auto;
+}
+
+footer a {
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+}
+
+#botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btnEnviar {
+  width: 200px;
+  height: 40px;
+  background-color: #FF9100;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: Nunito-Regular;
+}
+
+/* Começo da responsividade para celular */
+@media (max-width:767px) {
+
+  body {
+    font-family: Nunito-Regular;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  #dashabord {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  header {
+    padding: 0px;
+    background-color: #A628D6;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px 20px 30px;
+    margin: 0;
+  }
+
+  #logo {
+    height: 90px;
+    width: 300px;
+  }
+
+  #img-logo {
+    width: 100%;
+    margin-top: 15px;
+    height: auto;
+  }
+
+  #input {
+    width: 680px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inputes {
+    margin-left: 43px;
+  }
+
+  #barra-de-pesquisa {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 400px;
+    height: 40px;
+  }
+
+  #nav1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 25px;
+  }
+
+  #box-contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  #botão-cadastre-se {
+    margin-top: 15px;
+  }
+
+  .barra-de-email {
+    margin-top: 15px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    margin-left: auto;
+    width: 90%;
+  }
+
+  .senha {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    width: 50%;
+  }
+
+  #caixa {
+    background-color: #A628D6;
+    background: linear-gradient(180deg, #A628D6 0%, #5002AF 100%);
+    width: auto;
+    height: fit-content;
+    left: 290px;
+    top: 419px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin: 30px 20px;
+
+  }
+
+
+  #input2 {
+    padding: 10px;
+    margin-top: 0;
+    display: flexbox;
+    flex-direction: column;
+  }
+
+  #coluna {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nao {
+    color: white;
+  }
+
+  #cadastro {
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  #cadastro h2 {
+    font-size: 25px;
+  }
+
+  .barranome {
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    width: 90%;
+    flex-direction: column;
+    margin-left: auto;
+
+  }
+
+  .endereco {
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    width: 25%;
+
+  }
+
+  #barras {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mande {
+    color: white;
+    font-size: 23px;
+  }
+
+  #digite {
+    margin-top: 0px;
+    border-radius: 20px;
+    width: 80%;
+    height: 275px;
+    resize: none;
+    padding-left: 10px;
+  }
+
+  .barra {
+    margin: 0;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background: rgb(166, 40, 214);
+    background: linear-gradient(180deg, #A628D6 0%, #5002AF 100%);
+    margin-top: auto;
+    text-decoration: none;
+  }
+
+  footer a {
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+
+  }
+
+  nav a:hover {
+    color: #FF9100;
+  }
+
+  .btn_enviar {
+    width: 200px;
+    height: 40px;
+    background-color: #FF9100;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Nunito-Regular;
+    margin-left: auto;
+    margin-right: 4%;
+  }
+}
+
+/* Fim da responsividade de celular e começo da responsividade para tablet */
+@media (max-width:992px) AND (min-width:768px) {
+  body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    height: 100vh;
+  }
+
+  #container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+  }
+
+  header {
+    padding: 0px;
+    background-color: #A628D6;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px 20px 30px;
+    margin: 0;
+  }
+
+  nav a:hover {
+    color: #FF9100;
+  }
+
+  #logo {
+    height: 60px;
+    width: 200px;
+  }
+
+  #img-logo {
+    width: 100%;
+    margin-top: 31px;
+    height: auto;
+  }
+
+  #input {
+    width: 30%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    padding-left: 10px;
+  }
+
+  input {
+    border: #5002AF solid 2px;
+  }
+
+  #barra-de-pesquisa {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 400px;
+    height: 40px;
+  }
+
+  #nav1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    font-size: 14px;
+    margin-left: -50px
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 25px;
+  }
+
+  #box-contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  #botão-cadastre-se {
+    margin-top: 15px;
+    width: 110px;
+  }
+
+  /*Fim Código header*/
+
+  #banner {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: right;
+    width: auto;
+  }
+
+  #banner img {
+    width: 100%;
+    height: 300px;
+  }
+
+  #banner-end {
+    background-color: #FF9100;
+    display: flex;
+    justify-content: right;
+  }
+
+  .barra-de-email {
+    margin-top: 15px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    margin-left: auto;
+    width: 90%;
+  }
+
+  .senha {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    width: 50%;
+  }
+
+  #caixa {
+    background-color: #A628D6;
+    background: linear-gradient(180deg, #A628D6 0%, #5002AF 100%);
+    width: auto;
+    height: fit-content;
+    left: 290px;
+    top: 419px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin: 30px 20px;
+
+  }
+
+  #input2 {
+    padding: 10px;
+    margin-top: 0;
+    display: flexbox;
+    flex-direction: column;
+  }
+
+  #coluna {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nao {
+    color: white;
+  }
+
+  #cadastro {
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  #cadastro h2 {
+    font-size: 25px;
+  }
+
+  .barranome {
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    width: 90%;
+    flex-direction: column;
+    margin-left: auto;
+
+  }
+
+  .endereco {
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 250px;
+    height: 40px;
+    width: 25%;
+
+  }
+
+  #barras {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mande {
+    color: white;
+    font-size: 23px;
+  }
+
+  #digite {
+    margin-top: 0px;
+    border-radius: 20px;
+    width: 80%;
+    height: 275px;
+    resize: none;
+    padding-left: 10px;
+  }
+
+  .barra {
+    margin: 0;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background: rgb(166, 40, 214);
+    background: linear-gradient(180deg, #A628D6 0%, #5002AF 100%);
+    margin-top: auto;
+    text-decoration: none;
+  }
+
+  footer a {
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+
+  }
+
+  nav a:hover {
+    color: #FF9100;
+  }
+
+  .btn_enviar {
+    width: 200px;
+    height: 40px;
+    background-color: #FF9100;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Nunito-Regular;
+    margin-left: auto;
+
+  }
+}

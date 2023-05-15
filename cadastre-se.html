@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pet-Shop | Cadastro</title>
+    <link rel="stylesheet" href="Css/cadastro.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="icon" href="Imagens/Vector_logo.png  ">
+</head>
+
+<body>
+    <!--Começo programação header-->
+    <header>
+        <div id="container">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="Imagens/Logo.png" alt="Logo" id="img-logo">
+                </a>
+            </div>
+            <div id="input">
+                <p>
+                    <input type="text" placeholder="Encontre Seu produto:" id="barra-de-pesquisa">
+                </p>
+                <nav id="nav1">
+                    <a href="Sobre.html">Sobre</a>
+                    <a href="catalogo.html">Catálogo</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="agendamento.html">Agendamento</a>
+                    <a href="dashboard.html">Dashboard</a>
+                </nav>
+            </div>
+            <div id="box-contato">
+                <div class="contato">
+                    <a href="entrar.html">
+                        <img src="Imagens/User.png" alt="user">
+                    </a>
+                </div>
+                <nav class="contato">
+                    <a href="entrar.html" class="contato" id="botão-cadastre-se">
+                        <img src="Imagens/entrecadastre-se.png" alt="entrar" width="150px">
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <!--Fim programação header-->
+    <br /> <br />
+
+    <div id="cadastro">
+        <h2>
+            Cadastre-se
+        </h2>
+    </div>
+
+
+   
+    <div id="caixa">
+
+        <div id="input2">
+            <form id="frmRegistro">
+                <div id="barras">
+                    <p class="barra">
+
+
+                </div>
+                <div id="nomesobre">
+                    <input type="number" placeholder="Id:" class="barraId" id="Id">
+                    <input type="text" placeholder="Nome:" class="barraId" id="nome">
+                    <input type="text" placeholder="Endereço:" class="barra-de-email" id="End">
+                    <input type="text" placeholder="Cidade:" class="barra-de-email" id="city">
+                    <input type="text" placeholder="UF:" class="senha" id="uf">
+                    <input type="text" placeholder="Email:" class="senha" id='email'>
+                    <input type="tel" placeholder="Telefone:" class="senha" id="tel">
+
+                </div>
+
+
+                <div id="endereco">
+                    <input type="text" placeholder="Senha:" class="endereco" id="senha" >
+                    <input type="date" placeholder="Data de Nascimento:" class="endereco" id="data">
+                </div>
+                </p>
+        </div>
+        <div id="coluna">
+
+            <div id="erro">
+                <p></p>
+            </div>
+
+            <div class="botam">
+                <input type="button" value="Cadastre-se" class="btn_enviar" onclick="carregarDados();">
+            </div>
+            <div class="botam">
+                <input type="button" value="Gerar senha forte" class="btn_enviar" onclick="senhaForte();">
+            </div>
+
+        </div>
+        </form>
+    </div>
+
+    </div>
+
+
+    <br /> <br />
+
+
+    <!--Começo programação Footer-->
+    <footer>
+        Todos os direitos reservados-Desenvolvido por Tec<br>
+        <a href="#">
+            <img src="Imagens/phone.png">
+        </a>
+        <a href="#">
+            <img src="Imagens/whatsapp.png">
+        </a>
+        <a href="#">
+            <img src="Imagens/instagram.png">
+        </a>
+        <a href="#">
+            <img src="Imagens/envelope.png">
+        </a>
+    </footer>
+</body>
+<script src="js/scripts.js"></script>
+
+</html>

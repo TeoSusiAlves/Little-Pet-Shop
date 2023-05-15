@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pet-Shop | Entrar</title>
+    <link rel="stylesheet" href="Css/entrar.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="icon" href="Imagens/Vector_logo.png  ">
+</head>
+
+<body>
+    <!--Começo programação header-->
+    <header>
+        <div id="container">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="Imagens/Logo.png" alt="Logo" id="img-logo">
+                </a>
+            </div>
+            <div id="input">
+                <p>
+                    <input type="text" placeholder="Encontre Seu produto:" id="barra-de-pesquisa">
+                </p>
+                <nav id="nav1">
+                    <a href="Sobre.html">Sobre</a>
+                    <a href="catalogo.html">Catálogo</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="agendamento.html">Agendamento</a>
+                    <a href="dashboard.html" class="dashboard">Dashboard</a>
+                </nav>
+            </div>
+            <div id="box-contato">
+                <div class="contato">
+                    <a href="entrar.html">
+                        <img src="Imagens/User.png" alt="user" id="imagem-cadastro" width="60px" />
+                    </a>
+                </div>
+                <nav class="contato">
+                    <a href="entrar.html" class="contato">
+                        <img src="Imagens/entrecadastre-se.png" alt="entrar" id="botao-cadastrar" width="150px" />
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <!--Fim programação header-->
+    <br /> <br />
+    <div id="Entrar">
+        <h2>
+            Entrar
+        </h2>
+    </div>
+
+    <div id="caixa">
+
+        <div id="input2">
+            <form id="frmentrar">
+                <div id="barras">
+                    <P class="barra">
+                        <input type="text" placeholder="Endereço de e-mail:" class="barra-de-email" required id="email">
+                        <input type="text" placeholder="Senha:" class="senha" required id="senha">
+                    </P>
+                </div>
+                <div class="botam">
+                    <a href="index.html"></a>
+                    <button id="botaoentrar" name="bntEntrar" type="button" onclick="validandoDados();">Entrar</button>
+                </div>
+            </form>
+            <div id="mensagem-erro">
+                Ta errado amigão
+            </div>
+            </div>
+            <div id="coluna">
+
+                <p id="nao">Não tem uma conta ainda?</p>
+
+                <div class="botam">
+                    
+                    <button id="botaoentrar" name="bntEntrar" type="button" onclick="passandoPag()"><a href=cadastre-se.html></a>Cadastre-se</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <br /> <br />
+
+
+    <!--Começo programação Footer-->
+    <footer>
+        Todos os direitos reservados-Desenvolvido por Tec<br><br>
+        <a href="#">
+            <img src="Imagens/phone.png">
+        </a>
+        <a href="#">
+            <img src="Imagens/whatsapp.png">
+        </a>
+        <a href="#">
+            <img src="Imagens/instagram.png">
+        </a>
+        <a href="#">
+            <img src="Imagens/envelope.png">
+        </a>
+    </footer>
+</body>
+<script type="text/javascript" src="js/Entrar.js"></script>
+</html>

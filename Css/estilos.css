@@ -1,0 +1,646 @@
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(../Font/static/Nunito-Regular.ttf);
+}
+
+body {
+  font-family: Nunito-Regular;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  height: 100vh;
+}
+
+/*Código header*/
+#container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+header {
+  padding: 0px;
+  background-color: #A628D6;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 20px 20px 20px;
+  margin: 0;
+}
+
+nav a:hover {
+  color: #FF9100;
+}
+
+#logo {
+  height: 90px;
+  width: 300px;
+}
+
+#img-logo {
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+}
+
+#input {
+  width: 680px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding-left: 10px;
+}
+
+input {
+  border: #5002AF solid 2px;
+}
+
+#barra-de-pesquisa {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 50px;
+  top: 400px;
+  height: 40px;
+}
+
+#nav1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  font-size: 16px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+
+
+#box-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#botão-cadastre-se {
+  margin-top: 15px;
+  width: 150px;
+}
+
+/*Fim Código header*/
+
+/*footer*/
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background: rgb(166, 40, 214);
+  background: linear-gradient(180deg, rgb(166, 40, 214), rgba(31, 0, 58));
+  margin-top: auto;
+}
+
+footer a {
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+}
+
+/*Fim footer*/
+
+/*Meio do site*/
+#banner {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: right;
+}
+
+#banner-end {
+  background-color: #FF9100;
+  display: flex;
+  justify-content: right;
+}
+
+#promocao {
+  margin: 0px 20px;
+}
+
+#promo-home {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box img {
+  width: 250px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+}
+
+.box p {
+  text-align: center;
+}
+
+#categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.categoria {
+  text-align: center;
+
+}
+
+.categoria img {
+  border-radius: 50%;
+}
+
+.categoria a {
+  text-decoration: none;
+  color: black;
+}
+
+#categorias img {
+  opacity: 80%;
+}
+
+#categorias img:hover {
+  opacity: 100%;
+}
+/* Começo da responsividade para celular */
+@media(max-width: 767px) {
+
+  body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    height: 100vh;
+
+  }
+
+  #container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+  }
+
+  header {
+    padding: 0px;
+    background-color: #A628D6;
+    width: 100%;
+
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+    font-size: 10px;
+  }
+
+  #logo {
+    height: 80px;
+    width: 300px;
+  }
+
+  #img-logo {
+    width: 100%;
+    margin-top: 15px;
+    height: auto;
+    margin-right: auto;
+  }
+
+  #input {
+    width: 75%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  input {
+    border: #5002AF solid 2px;
+    margin-right: auto;
+    margin-left: 15%;
+  }
+
+  #barra-de-pesquisa {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 400px;
+    height: 40px;
+  }
+
+  #nav1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-size: 14px;
+    margin-left: 8%;
+  }
+
+  #nav1 a {
+    padding-right: 5px;
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12px;
+  }
+
+  #box-contato {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: 25%;
+
+  }
+
+  #imagem-cadastro {
+    width: 40px;
+
+  }
+  #botao-cadastrar {
+    width: 90px;
+
+  }
+  #botão-cadastre-se {
+    margin-top: 15px;
+  }
+
+
+
+  #banner {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: right;
+    width: auto;
+  }
+
+  #banner img {
+    width: 100%;
+    height: 200px;
+  }
+
+  #banner-end {
+    background-color: #FF9100;
+    display: flex;
+    justify-content: right;
+  }
+
+  #promocao {
+    margin: 0px 70px;
+
+  }
+
+  #promocao h2 {
+    text-align: center;
+  }
+
+  #promo-home {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    justify-content: space-between;
+  }
+
+  .box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box img {
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+  }
+
+  .box p {
+    text-align: center;
+  }
+
+  #categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 40px;
+    width: 100%;
+    margin-left: -20%;
+  }
+
+  .categoria {
+    text-align: center;
+    width: 50px;
+    padding-right: 10px;
+    padding-top: -30px;
+    padding-bottom: -30px;
+  }
+
+  .categoria img {
+    border-radius: 50%;
+    width: 50px;
+
+  }
+
+  .categoria a {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .categoria p {
+    font-size: 12px;
+  }
+
+  #banner-end {
+    width: auto;
+  }
+
+  #banner-end img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: -20px;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 19px;
+    background: rgb(166, 40, 214);
+    background: linear-gradient(180deg, rgb(166, 40, 214), rgba(31, 0, 58));
+    margin-top: auto;
+    font-size: 15px;
+  }
+
+  footer a {
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+  }
+
+  footer img {
+    margin-top: 20px;
+    width: 20px;
+  }
+
+}
+/* Fim da responsividade de celular e começo da responsividade para tablet */
+@media (max-width:992px) AND (min-width:768px) {
+  body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    height: 100vh;
+  }
+
+  #container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+  }
+
+  header {
+    padding: 0px;
+    background-color: #A628D6;
+    margin: 0px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    justify-content: left;
+  }
+
+  #nav1 {
+    justify-content: center;
+  }
+
+  nav a:hover {
+    color: #FF9100;
+  }
+
+  #logo {
+    height: 60px;
+    width: 200px;
+  }
+
+  #img-logo {
+    width: 100%;
+    margin-top: 31px;
+    height: auto;
+  }
+
+  #input {
+    width: 30%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    padding-left: 10px;
+  }
+
+  input {
+    border: #5002AF solid 2px;
+  }
+
+  #barra-de-pesquisa {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 50px;
+    top: 400px;
+    height: 40px;
+  }
+
+  #nav1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    font-size: 14px;
+    margin-left: -50px
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 25px;
+  }
+
+  #box-contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  #botão-cadastre-se {
+    margin-top: 15px;
+    width: 110px;
+  }
+
+  /*Fim Código header*/
+
+  #banner {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: right;
+    width: auto;
+  }
+
+  #banner img {
+    width: 100%;
+    height: 300px;
+  }
+
+  #banner-end {
+    background-color: #FF9100;
+    display: flex;
+    justify-content: right;
+  }
+
+  #promocao {
+    margin: 0px 70px;
+
+  }
+
+  #promocao h2 {
+    text-align: center;
+  }
+
+  #promo-home {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    justify-content: space-between;
+  }
+
+  .box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box img {
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+  }
+
+  .box p {
+    text-align: center;
+  }
+
+  #categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 40px;
+    width: 100%;
+    margin-left: -8%;
+  }
+
+  .categoria {
+    text-align: center;
+    width: 50px;
+    padding-right: 10px;
+    padding-top: -30px;
+    padding-bottom: -30px;
+  }
+
+  .categoria img {
+    border-radius: 50%;
+    width: 90px;
+
+  }
+
+  .categoria a {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .categoria p {
+    font-size: 23px;
+  }
+
+  #banner-end {
+    width: auto;
+  }
+
+  #banner-end img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: -20px;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 19px;
+    background: rgb(166, 40, 214);
+    background: linear-gradient(180deg, rgb(166, 40, 214), rgba(31, 0, 58));
+    margin-top: auto;
+    
+    font-size: 15px;
+  }
+
+  footer a {
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+  }
+
+  footer img {
+    margin-top: 20px;
+    width: 25px;
+  }
+
+}
